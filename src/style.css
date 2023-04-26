@@ -12,6 +12,12 @@
   font-style: normal;
 }
 
+button {
+  font-family: 'Montserrat', serif;
+  background: none;
+  border: none;
+}
+
 body {
   font-family: 'Montserrat', serif;
 }
