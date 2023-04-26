@@ -1,6 +1,9 @@
 const contact = () => {
   const content = document.getElementById('content');
 
+  const contactButton = document.getElementById('contact');
+  contactButton.classList.add('active');
+
   const container = document.createElement('div');
   container.id = 'container';
   content.appendChild(container);
