@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'KGSS';
+  src: url('./fonts/KGSummerSunshine.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./fonts/Montserrat-Thin.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Montserrat', serif;
+}
+
+h1 {
+  font-family: 'KGSS'
+}

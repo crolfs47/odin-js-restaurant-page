@@ -1,3 +1,6 @@
+import home from './home';
 import './style.css';
 
-console.log('test 2');
+console.log('test test');
+
+home();
