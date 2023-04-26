@@ -6,20 +6,20 @@
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('./fonts/Montserrat-Thin.ttf');
+  font-family: 'JosefinSans';
+  src: url('./fonts/JosefinSans-Light.ttf');
   font-weight: 600;
   font-style: normal;
 }
 
 button {
-  font-family: 'Montserrat', serif;
+  font-family: 'JosefinSans', serif;
   background: none;
   border: none;
 }
 
 body {
-  font-family: 'Montserrat', serif;
+  font-family: 'JosefinSans', serif;
 }
 
 h1 {
