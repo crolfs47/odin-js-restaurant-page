@@ -1,0 +1,24 @@
+{
+  "name": "odin-js-restaurant-page",
+  "version": "1.0.0",
+  "description": "Project completed as part of The Odin Project. Create a simple restaurant homepage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crolfs47/odin-js-restaurant-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crolfs47/odin-js-restaurant-page/issues"
+  },
+  "homepage": "https://github.com/crolfs47/odin-js-restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2"
+  }
+}
