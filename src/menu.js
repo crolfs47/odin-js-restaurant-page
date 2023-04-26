@@ -9,8 +9,10 @@ const menu = () => {
     'Morning Bun...............................................................$4',
     'Bagels: plain, everything, seasonal..........$2',
     'Donuts: glazed, chocolate, vanilla............$2',
-
   ];
+
+  const menuButton = document.getElementById('menu');
+  menuButton.classList.add('active');
 
   const container = document.createElement('div');
   container.id = 'container';

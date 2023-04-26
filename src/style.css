@@ -12,20 +12,46 @@
   font-style: normal;
 }
 
+body {
+  font-family: 'JosefinSans', serif;
+  text-align: center;
+}
+
 button {
   font-family: 'JosefinSans', serif;
   background: none;
   border: none;
+  font-size: 1em;
 }
 
-body {
-  font-family: 'JosefinSans', serif;
+button:hover {
+  cursor: pointer;
+  opacity: 50%;
 }
 
 h1 {
-  font-family: 'KGSS'
+  font-family: 'KGSS';
+  display: flex;
+  justify-content: center;
 }
 
 h2 {
-  font-size: 1.25em;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
 }
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.text-div {
+  padding: 15px;
+}
+
+.active {
+  text-decoration: underline;
+}
+

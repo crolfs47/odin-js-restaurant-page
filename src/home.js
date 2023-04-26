@@ -3,6 +3,9 @@ import Bread from './images/bread.jpeg';
 const home = () => {
   const content = document.getElementById('content');
 
+  const homeButton = document.getElementById('home');
+  homeButton.classList.add('active');
+
   const container = document.createElement('div');
   container.id = 'container';
   content.appendChild(container);
@@ -18,6 +21,7 @@ const home = () => {
 
   const homeText = document.createElement('div');
   homeText.textContent = 'Come try some tasty sourdough breads.';
+  homeText.classList.add('text-div');
   container.appendChild(homeText);
 };
 
