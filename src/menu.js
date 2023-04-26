@@ -12,14 +12,18 @@ const menu = () => {
 
   ];
 
+  const container = document.createElement('div');
+  container.id = 'container';
+  content.appendChild(container);
+
   const menuHeader = document.createElement('h1');
   menuHeader.textContent = 'Menu';
-  content.appendChild(menuHeader);
+  container.appendChild(menuHeader);
 
   menuItems.forEach((item) => {
     const menuItem = document.createElement('div');
     menuItem.textContent = item;
-    content.appendChild(menuItem);
+    container.appendChild(menuItem);
   });
 };
 
