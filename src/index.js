@@ -3,8 +3,6 @@ import menu from './menu';
 import contact from './contact';
 import './style.css';
 
-console.log('test test');
-
 const homeButton = document.getElementById('home');
 const menuButton = document.getElementById('menu');
 const contactButton = document.getElementById('contact');

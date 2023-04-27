@@ -26,8 +26,3 @@ const home = () => {
 };
 
 export default home;
-
-
-// <h1>Al's Bakery</h1>
-// <img src="bread.jpeg" width="500">
-// <div>Come try some tasty sourdough breads.</div>
